@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+
+# models, calibration data, eval downloads and other work files
+data/
+
+# personal notes
+docs/quantization-guide.md
+docs/img/
+
+# results/ keeps the summary and small per-run files; logs and per-request outputs stay local
+results/logs/
+results/vm_scripts/
+results/evalcache/
+results/calib/*
+!results/calib/stats.json
+results/checkpoints/*
+!results/checkpoints/quantize_meta_*.json
+results/bench/*_trace*/
+results/**/server.log
+results/**/serve_cmd.txt
+results/**/done.flag
+results/**/*.txt
+results/**/*.jsonl
+results/**/gpu_samples.csv

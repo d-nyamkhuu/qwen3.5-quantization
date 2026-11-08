@@ -1,0 +1,68 @@
+[project]
+name = "qwen3.5-quantization"
+version = "0.1.0"
+description = "Qwen3.5-9B in BF16, FP8, W4A16 and NVFP4 on vLLM and SGLang: quantize, benchmark, evaluate"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Nyamkhuu Demberelsuren" }]
+# The environment the published checkpoints and evals ran in (CPython 3.12, CUDA 13.0, x86_64 Linux).
+requires-python = "==3.12.*"
+dependencies = [
+  "torch==2.14.1",
+  "torchvision==0.29.1",  # Qwen3.5's video processor imports it
+  "llmcompressor==0.15.0",
+  "compressed-tensors==0.20.1",
+  "transformers==5.21.0",
+  "flash-linear-attention==0.6.0",  # Gated DeltaNet kernels
+  "causal-conv1d==1.7.0",
+  "datasets==5.1.0",
+  "accelerate==1.15.0",
+  "openai==3.46.0",
+  "jsonschema==4.26.0",
+  "safetensors==0.8.0",
+  "pillow==13.0.0",
+  "math-verify[antlr4_13_2]",
+  "pandas",
+  "pyarrow",
+]
+
+[project.urls]
+Repository = "https://github.com/d-nyamkhuu/qwen3.5-quantization"
+
+[dependency-groups]
+report = ["matplotlib>=3.10"]  # charts only: `uv run --only-group report python report/figures.py`
+dev = ["ruff>=0.12"]
+
+[tool.uv]
+package = false
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'"]
+exclude-newer = "2026-11-08T19:00:00Z"  # keeps unpinned dependencies at what existed when the run started
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+torchvision = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+# causal-conv1d ships only an sdist: declare its metadata so `uv lock` needs no GPU,
+# and compile it against the torch in the environment.
+[[tool.uv.dependency-metadata]]
+name = "causal-conv1d"
+version = "1.7.0"
+requires-dist = ["torch", "packaging", "ninja"]
+
+[tool.uv.extra-build-dependencies]
+causal-conv1d = [{ requirement = "torch", match-runtime = true }, "ninja", "packaging"]
+
+[tool.uv.extra-build-variables]
+causal-conv1d = { CAUSAL_CONV1D_FORCE_BUILD = "TRUE" }
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
