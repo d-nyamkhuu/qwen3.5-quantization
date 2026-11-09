@@ -1,0 +1,9 @@
+{
+ "scheme": "w4a16",
+ "base": "/data/models/Qwen_Qwen3.5-9B",
+ "calib": "/data/calib/qwen35_9b_calib.jsonl",
+ "num_samples": 256,
+ "max_seq_len": 8192,
+ "awq_offload": "gpu",
+ "minutes": 33.0
+}

@@ -1,0 +1,21 @@
+{
+ "counts": {
+  "hermes_fc": 400,
+  "hermes_fc_has_think": 200,
+  "nm_calibration": 336,
+  "nm_calibration_has_think": 0,
+  "ultrachat": 512,
+  "ultrachat_has_think": 0,
+  "numina": 400,
+  "numina_has_think": 400,
+  "opencodereasoning": 400,
+  "opencodereasoning_has_think": 400
+ },
+ "n": 2048,
+ "tokens_p50": 1655,
+ "tokens_p90": 8664,
+ "tokens_max": 11533,
+ "tokens_total": 7343613,
+ "tokens_total_capped_8192": 7117973,
+ "frac_over_8192": 0.269
+}
