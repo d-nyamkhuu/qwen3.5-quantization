@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 226" width="760" height="226" role="img" aria-label="One calibration set feeds llm-compressor, which makes FP8, W4A16 and NVFP4 checkpoints. With BF16 these are served on vLLM and SGLang for 8 runs, each measured for speed and cost, and accuracy.">
+<title>One calibration set feeds llm-compressor, which makes FP8, W4A16 and NVFP4 checkpoints. With BF16 these are served on vLLM and SGLang for 8 runs, each measured for speed and cost, and accuracy.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --line: #e4e8ee; --edge: #b6bec9;
+        --ref: #8a93a3; --accent: #2b4c7e; --accent-soft: #e9eef6; --s2: #d0675a;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent { fill: var(--accent); } .svg-accent-soft { fill: var(--accent-soft); }
+  .svg-surface { fill: var(--surface); } .svg-muted { fill: var(--muted); } .svg-s2 { fill: var(--s2); }
+  .mono { font-family: "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace; }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+  .anim { transform-box: view-box; transform-origin: 0 0; }
+  @media (prefers-reduced-motion: reduce) { .anim { animation: none !important; } }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="226" rx="10"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+<g text-anchor="middle" font-size="12">
+<rect x="12" y="30" width="150" height="64" rx="6" class="svg-surface" stroke="currentColor"/>
+<text x="87.0" y="48.0" font-weight="600" font-size="12.5" fill="currentColor">Calibration set</text>
+<text x="87.0" y="66.0" font-size="11" class="svg-muted">2,048 samples, model's</text>
+<text x="87.0" y="84.0" font-size="11" class="svg-muted">own reasoning + tools</text>
+<line x1="87" y1="94" x2="87" y2="120" stroke="currentColor" marker-end="url(#ar)"/>
+<rect x="12" y="122" width="150" height="64" rx="6" class="svg-surface" stroke="currentColor"/>
+<text x="87.0" y="140.0" font-weight="600" font-size="12.5" fill="currentColor">llm-compressor</text>
+<text x="87.0" y="158.0" font-size="11" class="svg-muted">AWQ → GPTQ</text>
+<text x="87.0" y="176.0" font-size="11" class="svg-muted">one run per format</text>
+<rect x="196" y="22" width="92" height="34" rx="17" fill="#a3abb8"/>
+<text x="242" y="44" font-weight="600" fill="#ffffff">BF16</text>
+<rect x="196" y="68" width="92" height="34" rx="17" fill="#7d93b8"/>
+<text x="242" y="90" font-weight="600" fill="#ffffff">FP8</text>
+<line x1="162" y1="154" x2="194" y2="85" stroke="currentColor" marker-end="url(#ar)"/>
+<rect x="196" y="114" width="92" height="34" rx="17" fill="#d0675a"/>
+<text x="242" y="136" font-weight="600" fill="#ffffff">W4A16</text>
+<line x1="162" y1="154" x2="194" y2="131" stroke="currentColor" marker-end="url(#ar)"/>
+<rect x="196" y="160" width="92" height="34" rx="17" fill="#2b4c7e"/>
+<text x="242" y="182" font-weight="600" fill="#ffffff">NVFP4</text>
+<line x1="162" y1="154" x2="194" y2="177" stroke="currentColor" marker-end="url(#ar)"/>
+<text x="242" y="214" font-size="10.5" class="svg-muted">4 checkpoints</text>
+<text x="400" y="14" font-weight="600" fill="currentColor">vLLM 0.33</text>
+<rect x="342" y="22" width="116" height="34" rx="5" class="svg-accent-soft" style="stroke: #a3abb8"/>
+<text x="400" y="43" font-size="11" fill="currentColor">bf16 · vllm</text>
+<rect x="342" y="68" width="116" height="34" rx="5" class="svg-accent-soft" style="stroke: #7d93b8"/>
+<text x="400" y="89" font-size="11" fill="currentColor">fp8 · vllm</text>
+<rect x="342" y="114" width="116" height="34" rx="5" class="svg-accent-soft" style="stroke: #d0675a"/>
+<text x="400" y="135" font-size="11" fill="currentColor">w4a16 · vllm</text>
+<rect x="342" y="160" width="116" height="34" rx="5" class="svg-accent-soft" style="stroke: #2b4c7e"/>
+<text x="400" y="181" font-size="11" fill="currentColor">nvfp4 · vllm</text>
+<text x="520" y="14" font-weight="600" fill="currentColor">SGLang 0.5.23</text>
+<rect x="462" y="22" width="116" height="34" rx="5" class="svg-accent-soft" style="stroke: #a3abb8"/>
+<text x="520" y="43" font-size="11" fill="currentColor">bf16 · sglang</text>
+<rect x="462" y="68" width="116" height="34" rx="5" class="svg-accent-soft" style="stroke: #7d93b8"/>
+<text x="520" y="89" font-size="11" fill="currentColor">fp8 · sglang</text>
+<rect x="462" y="114" width="116" height="34" rx="5" class="svg-accent-soft" style="stroke: #d0675a"/>
+<text x="520" y="135" font-size="11" fill="currentColor">w4a16 · sglang</text>
+<rect x="462" y="160" width="116" height="34" rx="5" class="svg-accent-soft" style="stroke: #2b4c7e"/>
+<text x="520" y="181" font-size="11" fill="currentColor">nvfp4 · sglang</text>
+<line x1="292" y1="108" x2="338" y2="108" stroke="currentColor" marker-end="url(#ar)"/>
+<text x="460" y="214" font-size="10.5" class="svg-muted">8 runs: benchmark, evals</text>
+<rect x="614" y="50" width="134" height="50" rx="6" class="svg-surface" stroke="currentColor"/>
+<text x="681.0" y="70.0" font-weight="600" font-size="12.5" fill="currentColor">Fast and cheap?</text>
+<text x="681.0" y="88.0" font-size="11" class="svg-muted">latency, throughput, cost</text>
+<line x1="582" y1="108" x2="612" y2="75" stroke="currentColor" marker-end="url(#ar)"/>
+<rect x="614" y="116" width="134" height="50" rx="6" class="svg-surface" stroke="currentColor"/>
+<text x="681.0" y="136.0" font-weight="600" font-size="12.5" fill="currentColor">Still accurate?</text>
+<text x="681.0" y="154.0" font-size="11" class="svg-muted">4 eval suites</text>
+<line x1="582" y1="108" x2="612" y2="141" stroke="currentColor" marker-end="url(#ar)"/>
+</g>
+</svg>

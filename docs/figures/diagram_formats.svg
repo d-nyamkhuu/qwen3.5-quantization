@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 268" width="760" height="268" role="img" aria-label="Bits per weight: BF16 16, FP8 8, W4A16 4.125 (4-bit integers plus a scale per 128), NVFP4 4.5 (4-bit floats plus an FP8 scale per 16). W4A16 expands weights to BF16 for the math, while NVFP4 computes in FP4.">
+<title>Bits per weight: BF16 16, FP8 8, W4A16 4.125 (4-bit integers plus a scale per 128), NVFP4 4.5 (4-bit floats plus an FP8 scale per 16). W4A16 expands weights to BF16 for the math, while NVFP4 computes in FP4.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --line: #e4e8ee; --edge: #b6bec9;
+        --ref: #8a93a3; --accent: #2b4c7e; --accent-soft: #e9eef6; --s2: #d0675a;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent { fill: var(--accent); } .svg-accent-soft { fill: var(--accent-soft); }
+  .svg-surface { fill: var(--surface); } .svg-muted { fill: var(--muted); } .svg-s2 { fill: var(--s2); }
+  .mono { font-family: "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace; }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+  .anim { transform-box: view-box; transform-origin: 0 0; }
+  @media (prefers-reduced-motion: reduce) { .anim { animation: none !important; } }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="268" rx="10"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+<text x="80" y="37" font-size="13" font-weight="600" text-anchor="end" fill="currentColor">BF16</text>
+<rect x="92" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="116" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="140" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="164" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="188" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="212" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="236" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="260" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="284" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="308" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="332" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="356" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="380" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="404" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="428" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<rect x="452" y="18" width="22" height="26" rx="2" fill="#a3abb8"/>
+<text x="484" y="30" font-size="12" font-weight="600" fill="currentColor" class="mono">16 bits · 82 tokens/s</text>
+<text x="484" y="45" font-size="11" class="svg-muted">16-bit floats · math in BF16</text>
+<text x="80" y="91" font-size="13" font-weight="600" text-anchor="end" fill="currentColor">FP8</text>
+<rect x="92" y="72" width="22" height="26" rx="2" fill="#7d93b8"/>
+<rect x="116" y="72" width="22" height="26" rx="2" fill="#7d93b8"/>
+<rect x="140" y="72" width="22" height="26" rx="2" fill="#7d93b8"/>
+<rect x="164" y="72" width="22" height="26" rx="2" fill="#7d93b8"/>
+<rect x="188" y="72" width="22" height="26" rx="2" fill="#7d93b8"/>
+<rect x="212" y="72" width="22" height="26" rx="2" fill="#7d93b8"/>
+<rect x="236" y="72" width="22" height="26" rx="2" fill="#7d93b8"/>
+<rect x="260" y="72" width="22" height="26" rx="2" fill="#7d93b8"/>
+<text x="292" y="84" font-size="12" font-weight="600" fill="currentColor" class="mono">8 bits · 126 tokens/s</text>
+<text x="292" y="99" font-size="11" class="svg-muted">8-bit floats, one scale per channel · math in FP8</text>
+<text x="80" y="145" font-size="13" font-weight="600" text-anchor="end" fill="currentColor">W4A16</text>
+<rect x="92" y="126" width="22" height="26" rx="2" fill="#d0675a"/>
+<rect x="116" y="126" width="22" height="26" rx="2" fill="#d0675a"/>
+<rect x="140" y="126" width="22" height="26" rx="2" fill="#d0675a"/>
+<rect x="164" y="126" width="22" height="26" rx="2" fill="#d0675a"/>
+<rect x="188" y="126" width="3.0" height="26" rx="1" fill="#d0675a" opacity="0.45"/>
+<text x="201.0" y="138" font-size="12" font-weight="600" fill="currentColor" class="mono">4.125 bits · 185 tokens/s</text>
+<text x="201.0" y="153" font-size="11" class="svg-muted">4-bit integers, one 16-bit scale per group of 128 · expanded back to BF16 for the math</text>
+<text x="80" y="199" font-size="13" font-weight="600" text-anchor="end" fill="currentColor">NVFP4</text>
+<rect x="92" y="180" width="22" height="26" rx="2" fill="#2b4c7e"/>
+<rect x="116" y="180" width="22" height="26" rx="2" fill="#2b4c7e"/>
+<rect x="140" y="180" width="22" height="26" rx="2" fill="#2b4c7e"/>
+<rect x="164" y="180" width="22" height="26" rx="2" fill="#2b4c7e"/>
+<rect x="188" y="180" width="12.0" height="26" rx="1" fill="#2b4c7e" opacity="0.45"/>
+<text x="210.0" y="192" font-size="12" font-weight="600" fill="currentColor" class="mono">4.5 bits · 156 tokens/s</text>
+<text x="210.0" y="207" font-size="11" class="svg-muted">4-bit floats, one FP8 scale per group of 16 · math in FP4 on Blackwell tensor cores</text>
+<text x="92" y="238" font-size="11" class="svg-muted">One square = one bit per weight. The pale sliver is the scale shared by a group of weights.</text>
+<text x="92" y="254" font-size="11" class="svg-muted">Each new token reads every weight once. Tokens/s is one request's measured speed on vLLM.</text>
+</svg>

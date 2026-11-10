@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 352" width="760" height="352" role="img" aria-label="Estimated KV-cache tokens left next to the weights on 16 to 96 GB GPUs: BF16 leaves no KV-cache room on 16 or 24 GB at these settings, while the 4-bit checkpoints leave room for long contexts on 24 GB and up.">
+<title>Estimated KV-cache tokens left next to the weights on 16 to 96 GB GPUs: BF16 leaves no KV-cache room on 16 or 24 GB at these settings, while the 4-bit checkpoints leave room for long contexts on 24 GB and up.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --line: #e4e8ee; --edge: #b6bec9;
+        --ref: #8a93a3; --accent: #2b4c7e; --accent-soft: #e9eef6; --s2: #d0675a;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent { fill: var(--accent); } .svg-accent-soft { fill: var(--accent-soft); }
+  .svg-surface { fill: var(--surface); } .svg-muted { fill: var(--muted); } .svg-s2 { fill: var(--s2); }
+  .mono { font-family: "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace; }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+  .anim { transform-box: view-box; transform-origin: 0 0; }
+  @media (prefers-reduced-motion: reduce) { .anim { animation: none !important; } }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="352" rx="10"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+<g font-size="12.5">
+<text x="258.0" y="30" text-anchor="middle" font-weight="700" font-size="15" fill="currentColor">BF16</text>
+<text x="258.0" y="48" text-anchor="middle" font-size="11" class="svg-muted">16.7 GiB of weights</text>
+<text x="398.0" y="30" text-anchor="middle" font-weight="700" font-size="15" fill="currentColor">FP8</text>
+<text x="398.0" y="48" text-anchor="middle" font-size="11" class="svg-muted">10.3 GiB of weights</text>
+<text x="538.0" y="30" text-anchor="middle" font-weight="700" font-size="15" fill="currentColor">W4A16</text>
+<text x="538.0" y="48" text-anchor="middle" font-size="11" class="svg-muted">7.2 GiB of weights</text>
+<text x="678.0" y="30" text-anchor="middle" font-weight="700" font-size="15" fill="currentColor">NVFP4</text>
+<text x="678.0" y="48" text-anchor="middle" font-size="11" class="svg-muted">7.6 GiB of weights</text>
+<text x="16" y="84" font-weight="600" fill="currentColor">16 GB</text>
+<text x="16" y="99" font-size="10.5" class="svg-muted">RTX 5080, RTX 4080</text>
+<rect x="191" y="67" width="134" height="38" rx="5" fill="#ffffff" stroke="#8a93a3" stroke-dasharray="3 2"/>
+<text x="258.0" y="84" text-anchor="middle" class="svg-muted">no KV-cache room</text>
+<text x="258.0" y="98" text-anchor="middle" font-size="10.5" class="svg-muted">at these settings</text>
+<rect x="331" y="67" width="134" height="38" rx="5" fill="#ffffff" stroke="#8a93a3" stroke-dasharray="3 2"/>
+<text x="398.0" y="84" text-anchor="middle" class="svg-muted">no KV-cache room</text>
+<text x="398.0" y="98" text-anchor="middle" font-size="10.5" class="svg-muted">at these settings</text>
+<rect x="471" y="67" width="134" height="38" rx="5" fill="#f3f5f9"/>
+<text x="538.0" y="84" text-anchor="middle" font-weight="600" fill="currentColor">35k tokens</text>
+<text x="538.0" y="98" text-anchor="middle" font-size="10.5" fill="currentColor">less than one 32k context</text>
+<rect x="611" y="67" width="134" height="38" rx="5" fill="#f3f5f9"/>
+<text x="678.0" y="84" text-anchor="middle" font-weight="600" fill="currentColor">20k tokens</text>
+<text x="678.0" y="98" text-anchor="middle" font-size="10.5" fill="currentColor">less than one 32k context</text>
+<text x="16" y="128" font-weight="600" fill="currentColor">24 GB</text>
+<text x="16" y="143" font-size="10.5" class="svg-muted">RTX 4090, L4</text>
+<rect x="191" y="111" width="134" height="38" rx="5" fill="#ffffff" stroke="#8a93a3" stroke-dasharray="3 2"/>
+<text x="258.0" y="128" text-anchor="middle" class="svg-muted">no KV-cache room</text>
+<text x="258.0" y="142" text-anchor="middle" font-size="10.5" class="svg-muted">at these settings</text>
+<rect x="331" y="111" width="134" height="38" rx="5" fill="#dde4ef"/>
+<text x="398.0" y="128" text-anchor="middle" font-weight="600" fill="currentColor">240k tokens</text>
+<text x="398.0" y="142" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 7 × 32k contexts</text>
+<rect x="471" y="111" width="134" height="38" rx="5" fill="#dde4ef"/>
+<text x="538.0" y="128" text-anchor="middle" font-weight="600" fill="currentColor">234k tokens</text>
+<text x="538.0" y="142" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 7 × 32k contexts</text>
+<rect x="611" y="111" width="134" height="38" rx="5" fill="#dde4ef"/>
+<text x="678.0" y="128" text-anchor="middle" font-weight="600" fill="currentColor">368k tokens</text>
+<text x="678.0" y="142" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 11 × 32k contexts</text>
+<text x="16" y="172" font-weight="600" fill="currentColor">32 GB</text>
+<text x="16" y="187" font-size="10.5" class="svg-muted">RTX 5090</text>
+<rect x="191" y="155" width="134" height="38" rx="5" fill="#dde4ef"/>
+<text x="258.0" y="172" text-anchor="middle" font-weight="600" fill="currentColor">166k tokens</text>
+<text x="258.0" y="186" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 5 × 32k contexts</text>
+<rect x="331" y="155" width="134" height="38" rx="5" fill="#bccadf"/>
+<text x="398.0" y="172" text-anchor="middle" font-weight="600" fill="currentColor">587k tokens</text>
+<text x="398.0" y="186" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 18 × 32k contexts</text>
+<rect x="471" y="155" width="134" height="38" rx="5" fill="#dde4ef"/>
+<text x="538.0" y="172" text-anchor="middle" font-weight="600" fill="currentColor">433k tokens</text>
+<text x="538.0" y="186" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 13 × 32k contexts</text>
+<rect x="611" y="155" width="134" height="38" rx="5" fill="#bccadf"/>
+<text x="678.0" y="172" text-anchor="middle" font-weight="600" fill="currentColor">715k tokens</text>
+<text x="678.0" y="186" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 22 × 32k contexts</text>
+<text x="16" y="216" font-weight="600" fill="currentColor">48 GB</text>
+<text x="16" y="231" font-size="10.5" class="svg-muted">L40S, RTX 6000 Ada</text>
+<rect x="191" y="199" width="134" height="38" rx="5" fill="#bccadf"/>
+<text x="258.0" y="216" text-anchor="middle" font-weight="600" fill="currentColor">563k tokens</text>
+<text x="258.0" y="230" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 17 × 32k contexts</text>
+<rect x="331" y="199" width="134" height="38" rx="5" fill="#bccadf"/>
+<text x="398.0" y="216" text-anchor="middle" font-weight="600" fill="currentColor">1.28M tokens</text>
+<text x="398.0" y="230" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 39 × 32k contexts</text>
+<rect x="471" y="199" width="134" height="38" rx="5" fill="#bccadf"/>
+<text x="538.0" y="216" text-anchor="middle" font-weight="600" fill="currentColor">830k tokens</text>
+<text x="538.0" y="230" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 25 × 32k contexts</text>
+<rect x="611" y="199" width="134" height="38" rx="5" fill="#bccadf"/>
+<text x="678.0" y="216" text-anchor="middle" font-weight="600" fill="currentColor">1.41M tokens</text>
+<text x="678.0" y="230" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 43 × 32k contexts</text>
+<text x="16" y="260" font-weight="600" fill="currentColor">96 GB · measured</text>
+<text x="16" y="275" font-size="10.5" class="svg-muted">RTX PRO 6000</text>
+<rect x="191" y="243" width="134" height="38" rx="5" fill="#8fa5c6"/>
+<text x="258.0" y="260" text-anchor="middle" font-weight="600" fill="currentColor">1.75M tokens</text>
+<text x="258.0" y="274" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 53 × 32k contexts</text>
+<rect x="331" y="243" width="134" height="38" rx="5" fill="#8fa5c6"/>
+<text x="398.0" y="260" text-anchor="middle" font-weight="600" fill="currentColor">3.35M tokens</text>
+<text x="398.0" y="274" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 102 × 32k contexts</text>
+<rect x="471" y="243" width="134" height="38" rx="5" fill="#8fa5c6"/>
+<text x="538.0" y="260" text-anchor="middle" font-weight="600" fill="currentColor">2.01M tokens</text>
+<text x="538.0" y="274" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 61 × 32k contexts</text>
+<rect x="611" y="243" width="134" height="38" rx="5" fill="#8fa5c6"/>
+<text x="678.0" y="260" text-anchor="middle" font-weight="600" fill="currentColor">3.48M tokens</text>
+<text x="678.0" y="274" text-anchor="middle" font-size="10.5" fill="currentColor">≈ 106 × 32k contexts</text>
+<text x="16" y="302" font-size="11" class="svg-muted">KV-cache room left after the weights, shared by all requests in flight. Darker = more context.</text>
+<text x="16" y="318" font-size="11" class="svg-muted">Smaller GPUs are estimates: 0.88 × memory − weights − the 5.6–6.0 GiB of activations and CUDA graphs measured here,</text>
+<text x="16" y="334" font-size="11" class="svg-muted">divided by the measured cost per token (37 KiB with a BF16 KV cache, 21 KiB with FP8). FP8 math needs Ada or newer, FP4 math Blackwell.</text>
+</g>
+</svg>

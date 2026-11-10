@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 214" width="760" height="214" role="img" aria-label="The NVFP4 checkpoint layer by layer: every fourth of the 32 layers uses attention and the rest Gated DeltaNet. All attention and DeltaNet weights are FP8, the MLPs of layers 0 to 27 are NVFP4 and the last four FP8. The 8 attention layers keep a KV cache that grows with the context, while the 24 DeltaNet layers keep a fixed 48 MiB FP32 state.">
+<title>The NVFP4 checkpoint layer by layer: every fourth of the 32 layers uses attention and the rest Gated DeltaNet. All attention and DeltaNet weights are FP8, the MLPs of layers 0 to 27 are NVFP4 and the last four FP8. The 8 attention layers keep a KV cache that grows with the context, while the 24 DeltaNet layers keep a fixed 48 MiB FP32 state.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --line: #e4e8ee; --edge: #b6bec9;
+        --ref: #8a93a3; --accent: #2b4c7e; --accent-soft: #e9eef6; --s2: #d0675a;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent { fill: var(--accent); } .svg-accent-soft { fill: var(--accent-soft); }
+  .svg-surface { fill: var(--surface); } .svg-muted { fill: var(--muted); } .svg-s2 { fill: var(--s2); }
+  .mono { font-family: "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace; }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+  .anim { transform-box: view-box; transform-origin: 0 0; }
+  @media (prefers-reduced-motion: reduce) { .anim { animation: none !important; } }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="214" rx="10"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+<text x="136" y="55" text-anchor="end" font-size="12" font-weight="600" fill="currentColor">attention</text>
+<text x="136" y="93" text-anchor="end" font-size="12" font-weight="600" fill="currentColor">MLP</text>
+<rect x="148" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="156.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="148" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<text x="156.0" y="28" text-anchor="middle" font-size="10" class="svg-muted mono">0</text>
+<rect x="166" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="174.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="166" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="184" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="192.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="184" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="202" y="40" width="16" height="30" rx="3" fill="#7d93b8" stroke="#1b2a3a" stroke-width="1.6"/>
+<text x="210.0" y="60" text-anchor="middle" font-size="11" font-weight="700" fill="#1b2a3a">A</text>
+<rect x="202" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<text x="210.0" y="28" text-anchor="middle" font-size="10" class="svg-muted mono">3</text>
+<rect x="220" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="228.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="220" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="238" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="246.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="238" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="256" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="264.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="256" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="274" y="40" width="16" height="30" rx="3" fill="#7d93b8" stroke="#1b2a3a" stroke-width="1.6"/>
+<text x="282.0" y="60" text-anchor="middle" font-size="11" font-weight="700" fill="#1b2a3a">A</text>
+<rect x="274" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<text x="282.0" y="28" text-anchor="middle" font-size="10" class="svg-muted mono">7</text>
+<rect x="292" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="300.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="292" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="310" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="318.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="310" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="328" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="336.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="328" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="346" y="40" width="16" height="30" rx="3" fill="#7d93b8" stroke="#1b2a3a" stroke-width="1.6"/>
+<text x="354.0" y="60" text-anchor="middle" font-size="11" font-weight="700" fill="#1b2a3a">A</text>
+<rect x="346" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<text x="354.0" y="28" text-anchor="middle" font-size="10" class="svg-muted mono">11</text>
+<rect x="364" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="372.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="364" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="382" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="390.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="382" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="400" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="408.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="400" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="418" y="40" width="16" height="30" rx="3" fill="#7d93b8" stroke="#1b2a3a" stroke-width="1.6"/>
+<text x="426.0" y="60" text-anchor="middle" font-size="11" font-weight="700" fill="#1b2a3a">A</text>
+<rect x="418" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<text x="426.0" y="28" text-anchor="middle" font-size="10" class="svg-muted mono">15</text>
+<rect x="436" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="444.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="436" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="454" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="462.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="454" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="472" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="480.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="472" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="490" y="40" width="16" height="30" rx="3" fill="#7d93b8" stroke="#1b2a3a" stroke-width="1.6"/>
+<text x="498.0" y="60" text-anchor="middle" font-size="11" font-weight="700" fill="#1b2a3a">A</text>
+<rect x="490" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<text x="498.0" y="28" text-anchor="middle" font-size="10" class="svg-muted mono">19</text>
+<rect x="508" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="516.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="508" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="526" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="534.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="526" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="544" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="552.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="544" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="562" y="40" width="16" height="30" rx="3" fill="#7d93b8" stroke="#1b2a3a" stroke-width="1.6"/>
+<text x="570.0" y="60" text-anchor="middle" font-size="11" font-weight="700" fill="#1b2a3a">A</text>
+<rect x="562" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<text x="570.0" y="28" text-anchor="middle" font-size="10" class="svg-muted mono">23</text>
+<rect x="580" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="588.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="580" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="598" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="606.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="598" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="616" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="624.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="616" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<rect x="634" y="40" width="16" height="30" rx="3" fill="#7d93b8" stroke="#1b2a3a" stroke-width="1.6"/>
+<text x="642.0" y="60" text-anchor="middle" font-size="11" font-weight="700" fill="#1b2a3a">A</text>
+<rect x="634" y="78" width="16" height="30" rx="3" fill="#2b4c7e"/>
+<text x="642.0" y="28" text-anchor="middle" font-size="10" class="svg-muted mono">27</text>
+<rect x="652" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="660.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="652" y="78" width="16" height="30" rx="3" fill="#7d93b8"/>
+<rect x="670" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="678.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="670" y="78" width="16" height="30" rx="3" fill="#7d93b8"/>
+<rect x="688" y="40" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="696.0" y="60" text-anchor="middle" font-size="11" font-weight="400" fill="#1b2a3a">D</text>
+<rect x="688" y="78" width="16" height="30" rx="3" fill="#7d93b8"/>
+<rect x="706" y="40" width="16" height="30" rx="3" fill="#7d93b8" stroke="#1b2a3a" stroke-width="1.6"/>
+<text x="714.0" y="60" text-anchor="middle" font-size="11" font-weight="700" fill="#1b2a3a">A</text>
+<rect x="706" y="78" width="16" height="30" rx="3" fill="#7d93b8"/>
+<text x="714.0" y="28" text-anchor="middle" font-size="10" class="svg-muted mono">31</text>
+<text x="136" y="28" text-anchor="end" font-size="10" class="svg-muted">layer</text>
+<text x="136" y="134" text-anchor="end" font-size="12" font-weight="600" fill="currentColor">per request</text>
+<path d="M210.0,112 v8" stroke="#1b2a3a" stroke-width="1.4"/>
+<path d="M282.0,112 v8" stroke="#1b2a3a" stroke-width="1.4"/>
+<path d="M354.0,112 v8" stroke="#1b2a3a" stroke-width="1.4"/>
+<path d="M426.0,112 v8" stroke="#1b2a3a" stroke-width="1.4"/>
+<path d="M498.0,112 v8" stroke="#1b2a3a" stroke-width="1.4"/>
+<path d="M570.0,112 v8" stroke="#1b2a3a" stroke-width="1.4"/>
+<path d="M642.0,112 v8" stroke="#1b2a3a" stroke-width="1.4"/>
+<path d="M714.0,112 v8" stroke="#1b2a3a" stroke-width="1.4"/>
+<line x1="210.0" y1="120" x2="714.0" y2="120" stroke="#1b2a3a" stroke-width="1.4"/>
+<text x="148" y="138" font-size="11.5" fill="currentColor"><tspan font-weight="600">A, 8 full-attention layers:</tspan> a KV cache that grows with every token (32 KiB per token in BF16, 16 KiB in FP8)</text>
+<text x="148" y="156" font-size="11.5" fill="currentColor"><tspan font-weight="600">D, 24 Gated DeltaNet (linear attention) layers:</tspan> a fixed-size state, 48 MiB in FP32 however long the context</text>
+<text x="16" y="178" font-size="11" class="svg-muted">Weight format</text>
+<rect x="16" y="186" width="14" height="14" rx="2" fill="#2b4c7e"/>
+<text x="36" y="197" font-size="11.5" fill="currentColor"><tspan font-weight="600">NVFP4</tspan> <tspan class="svg-muted">MLPs of layers 0–27</tspan></text>
+<rect x="206" y="186" width="14" height="14" rx="2" fill="#7d93b8"/>
+<text x="226" y="197" font-size="11.5" fill="currentColor"><tspan font-weight="600">FP8</tspan> <tspan class="svg-muted">all attention weights, the last 4 MLPs, the output layer</tspan></text>
+<rect x="558" y="186" width="14" height="14" rx="2" fill="#ffffff" stroke="#8a93a3"/>
+<text x="578" y="197" font-size="11.5" fill="currentColor"><tspan font-weight="600">BF16</tspan> <tspan class="svg-muted">the rest (not drawn)</tspan></text>
+</svg>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 324" width="760" height="324" role="img" aria-label="Scorecard for BF16, FP8, W4A16 and NVFP4 on vLLM: W4A16 is fastest for a single user, NVFP4 has the highest throughput, lowest cost and largest KV cache, and accuracy is within noise.">
+<title>Scorecard for BF16, FP8, W4A16 and NVFP4 on vLLM: W4A16 is fastest for a single user, NVFP4 has the highest throughput, lowest cost and largest KV cache, and accuracy is within noise.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --line: #e4e8ee; --edge: #b6bec9;
+        --ref: #8a93a3; --accent: #2b4c7e; --accent-soft: #e9eef6; --s2: #d0675a;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent { fill: var(--accent); } .svg-accent-soft { fill: var(--accent-soft); }
+  .svg-surface { fill: var(--surface); } .svg-muted { fill: var(--muted); } .svg-s2 { fill: var(--s2); }
+  .mono { font-family: "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace; }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+  .anim { transform-box: view-box; transform-origin: 0 0; }
+  @media (prefers-reduced-motion: reduce) { .anim { animation: none !important; } }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="324" rx="10"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+<g font-size="12.5">
+<text x="258.0" y="30" text-anchor="middle" font-weight="700" font-size="15" fill="currentColor">BF16</text>
+<text x="258.0" y="48" text-anchor="middle" font-size="11" class="svg-muted">16.7 GiB of weights</text>
+<text x="398.0" y="30" text-anchor="middle" font-weight="700" font-size="15" fill="currentColor">FP8</text>
+<text x="398.0" y="48" text-anchor="middle" font-size="11" class="svg-muted">10.3 GiB of weights</text>
+<text x="538.0" y="30" text-anchor="middle" font-weight="700" font-size="15" fill="currentColor">W4A16</text>
+<text x="538.0" y="48" text-anchor="middle" font-size="11" class="svg-muted">7.2 GiB of weights</text>
+<text x="678.0" y="30" text-anchor="middle" font-weight="700" font-size="15" fill="currentColor">NVFP4</text>
+<text x="678.0" y="48" text-anchor="middle" font-size="11" class="svg-muted">7.6 GiB of weights</text>
+<text x="16" y="86" fill="currentColor">Single-user speed</text>
+<rect x="191" y="67" width="134" height="28" rx="5" fill="#f3f5f9"/>
+<text x="258.0" y="86" text-anchor="middle" fill="currentColor">82 tok/s</text>
+<rect x="331" y="67" width="134" height="28" rx="5" fill="#dde4ef"/>
+<text x="398.0" y="86" text-anchor="middle" fill="currentColor">126 tok/s</text>
+<rect x="471" y="67" width="134" height="28" rx="5" fill="#2b4c7e"/>
+<text x="538.0" y="86" text-anchor="middle" fill="#ffffff" font-weight="600">185 tok/s</text>
+<rect x="611" y="67" width="134" height="28" rx="5" fill="#bccadf"/>
+<text x="678.0" y="86" text-anchor="middle" fill="currentColor">156 tok/s</text>
+<text x="16" y="120" fill="currentColor">Peak throughput</text>
+<rect x="191" y="101" width="134" height="28" rx="5" fill="#dde4ef"/>
+<text x="258.0" y="120" text-anchor="middle" fill="currentColor">4,004 tok/s</text>
+<rect x="331" y="101" width="134" height="28" rx="5" fill="#bccadf"/>
+<text x="398.0" y="120" text-anchor="middle" fill="currentColor">5,602 tok/s</text>
+<rect x="471" y="101" width="134" height="28" rx="5" fill="#f3f5f9"/>
+<text x="538.0" y="120" text-anchor="middle" fill="currentColor">3,988 tok/s</text>
+<rect x="611" y="101" width="134" height="28" rx="5" fill="#2b4c7e"/>
+<text x="678.0" y="120" text-anchor="middle" fill="#ffffff" font-weight="600">6,320 tok/s</text>
+<text x="16" y="154" fill="currentColor">Cost per 1M tokens</text>
+<rect x="191" y="135" width="134" height="28" rx="5" fill="#dde4ef"/>
+<text x="258.0" y="154" text-anchor="middle" fill="currentColor">12.5¢</text>
+<rect x="331" y="135" width="134" height="28" rx="5" fill="#bccadf"/>
+<text x="398.0" y="154" text-anchor="middle" fill="currentColor">8.9¢</text>
+<rect x="471" y="135" width="134" height="28" rx="5" fill="#f3f5f9"/>
+<text x="538.0" y="154" text-anchor="middle" fill="currentColor">12.5¢</text>
+<rect x="611" y="135" width="134" height="28" rx="5" fill="#2b4c7e"/>
+<text x="678.0" y="154" text-anchor="middle" fill="#ffffff" font-weight="600">7.9¢</text>
+<text x="16" y="188" fill="currentColor">KV-cache capacity</text>
+<rect x="191" y="169" width="134" height="28" rx="5" fill="#f3f5f9"/>
+<text x="258.0" y="188" text-anchor="middle" fill="currentColor">1.75M tokens</text>
+<rect x="331" y="169" width="134" height="28" rx="5" fill="#bccadf"/>
+<text x="398.0" y="188" text-anchor="middle" fill="currentColor">3.35M tokens</text>
+<rect x="471" y="169" width="134" height="28" rx="5" fill="#dde4ef"/>
+<text x="538.0" y="188" text-anchor="middle" fill="currentColor">2.01M tokens</text>
+<rect x="611" y="169" width="134" height="28" rx="5" fill="#2b4c7e"/>
+<text x="678.0" y="188" text-anchor="middle" fill="#ffffff" font-weight="600">3.48M tokens</text>
+<text x="16" y="222" fill="currentColor">Accuracy, 4-suite mean</text>
+<rect x="191" y="203" width="134" height="28" rx="5" fill="#f3f5f9"/>
+<text x="258.0" y="222" text-anchor="middle" fill="currentColor">71.9%</text>
+<rect x="331" y="203" width="134" height="28" rx="5" fill="#f3f5f9"/>
+<text x="398.0" y="222" text-anchor="middle" fill="currentColor">72.8%</text>
+<rect x="471" y="203" width="134" height="28" rx="5" fill="#f3f5f9"/>
+<text x="538.0" y="222" text-anchor="middle" fill="currentColor">72.0%</text>
+<rect x="611" y="203" width="134" height="28" rx="5" fill="#f3f5f9"/>
+<text x="678.0" y="222" text-anchor="middle" fill="currentColor">72.4%</text>
+<line x1="16" y1="242" x2="748" y2="242" stroke="currentColor" stroke-width="0.6"/>
+<text x="16" y="266" font-weight="600" fill="currentColor">Pick it for</text>
+<text x="258.0" y="266" text-anchor="middle" font-weight="600" class="svg-accent">the reference</text>
+<text x="398.0" y="266" text-anchor="middle" font-weight="600" class="svg-accent">safe default (Ada+)</text>
+<text x="538.0" y="266" text-anchor="middle" font-weight="600" class="svg-accent">a single user</text>
+<text x="678.0" y="266" text-anchor="middle" font-weight="600" class="svg-accent">throughput, cost</text>
+<text x="16" y="294" font-size="11" class="svg-muted">vLLM 0.33 on one RTX PRO 6000 Blackwell, 1,024 tokens in and 512 out. Darker = better in that row.</text>
+<text x="16" y="310" font-size="11" class="svg-muted">Single-user speed is output tokens/s with one request. Accuracy differences are within noise.</text>
+</g>
+</svg>

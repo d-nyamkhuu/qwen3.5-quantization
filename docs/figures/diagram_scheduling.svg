@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 604" width="760" height="604" role="img" aria-label="One wave of new prompts at 128 concurrent requests, replayed from the step traces. vLLM reads about 7 new prompts per step alongside decoding, so a new request gets a token about every 152 ms. SGLang reads 8 prompts per step with no decoding, so a request whose prompt was read early gets no token for 2.6 seconds.">
+<title>One wave of new prompts at 128 concurrent requests, replayed from the step traces. vLLM reads about 7 new prompts per step alongside decoding, so a new request gets a token about every 152 ms. SGLang reads 8 prompts per step with no decoding, so a request whose prompt was read early gets no token for 2.6 seconds.</title>
+<style>
+  svg { --surface: #ffffff; --fg: #1b2a3a; --muted: #5b6472; --line: #e4e8ee; --edge: #b6bec9;
+        --ref: #8a93a3; --accent: #2b4c7e; --accent-soft: #e9eef6; --s2: #d0675a;
+        color: var(--fg); font-family: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .bg { fill: var(--surface); }
+  .svg-accent { fill: var(--accent); } .svg-accent-soft { fill: var(--accent-soft); }
+  .svg-surface { fill: var(--surface); } .svg-muted { fill: var(--muted); } .svg-s2 { fill: var(--s2); }
+  .mono { font-family: "IBM Plex Mono", SFMono-Regular, Menlo, Consolas, monospace; }
+  rect[stroke="currentColor"] { stroke: var(--edge); }
+  line[stroke="currentColor"], path[stroke="currentColor"] { stroke: var(--ref); }
+  marker path { fill: var(--ref); }
+  .anim { transform-box: view-box; transform-origin: 0 0; }
+  @media (prefers-reduced-motion: reduce) { .anim { animation: none !important; } }
+</style>
+<rect class="bg" x="0" y="0" width="760" height="604" rx="10"/>
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker></defs>
+<style>@keyframes k0 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 9.689% { opacity: 1; transform: translate(0px, 0px) } 10.972% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k0 { animation: k0 14.45s linear infinite; }
+@keyframes k1 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 11.827% { opacity: 1; transform: translate(0px, 0px) } 12.925% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k1 { animation: k1 14.45s linear infinite; }
+@keyframes k2 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 11.817% { opacity: 0; transform: translate(0px, 0px) } 11.827% { opacity: 1; transform: translate(0px, 0px) } 13.657% { opacity: 1; transform: translate(0px, 0px) } 14.751% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k2 { animation: k2 14.45s linear infinite; }
+@keyframes k3 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 13.647% { opacity: 0; transform: translate(0px, 0px) } 13.657% { opacity: 1; transform: translate(0px, 0px) } 15.481% { opacity: 1; transform: translate(0px, 0px) } 17.142% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k3 { animation: k3 14.45s linear infinite; }
+@keyframes k4 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 15.471% { opacity: 0; transform: translate(0px, 0px) } 15.481% { opacity: 1; transform: translate(0px, 0px) } 18.448% { opacity: 1; transform: translate(0px, 0px) } 20.109% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k4 { animation: k4 14.45s linear infinite; }
+@keyframes k5 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 18.438% { opacity: 0; transform: translate(0px, 0px) } 18.448% { opacity: 1; transform: translate(0px, 0px) } 21.599% { opacity: 1; transform: translate(0px, 0px) } 23.259% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k5 { animation: k5 14.45s linear infinite; }
+@keyframes k6 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 21.589% { opacity: 0; transform: translate(0px, 0px) } 21.599% { opacity: 1; transform: translate(0px, 0px) } 24.753% { opacity: 1; transform: translate(0px, 0px) } 26.414% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k6 { animation: k6 14.45s linear infinite; }
+@keyframes k7 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 24.743% { opacity: 0; transform: translate(0px, 0px) } 24.753% { opacity: 1; transform: translate(0px, 0px) } 27.912% { opacity: 1; transform: translate(0px, 0px) } 29.573% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k7 { animation: k7 14.45s linear infinite; }
+@keyframes k8 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 27.902% { opacity: 0; transform: translate(0px, 0px) } 27.912% { opacity: 1; transform: translate(0px, 0px) } 31.065% { opacity: 1; transform: translate(0px, 0px) } 32.726% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k8 { animation: k8 14.45s linear infinite; }
+@keyframes k9 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 31.055% { opacity: 0; transform: translate(0px, 0px) } 31.065% { opacity: 1; transform: translate(0px, 0px) } 34.215% { opacity: 1; transform: translate(0px, 0px) } 35.876% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k9 { animation: k9 14.45s linear infinite; }
+@keyframes k10 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 34.205% { opacity: 0; transform: translate(0px, 0px) } 34.215% { opacity: 1; transform: translate(0px, 0px) } 37.375% { opacity: 1; transform: translate(0px, 0px) } 39.036% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k10 { animation: k10 14.45s linear infinite; }
+@keyframes k11 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 37.365% { opacity: 0; transform: translate(0px, 0px) } 37.375% { opacity: 1; transform: translate(0px, 0px) } 40.526% { opacity: 1; transform: translate(0px, 0px) } 42.187% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k11 { animation: k11 14.45s linear infinite; }
+@keyframes k12 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 40.516% { opacity: 0; transform: translate(0px, 0px) } 40.526% { opacity: 1; transform: translate(0px, 0px) } 43.667% { opacity: 1; transform: translate(0px, 0px) } 45.328% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k12 { animation: k12 14.45s linear infinite; }
+@keyframes k13 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 43.657% { opacity: 0; transform: translate(0px, 0px) } 43.667% { opacity: 1; transform: translate(0px, 0px) } 46.820% { opacity: 1; transform: translate(0px, 0px) } 48.481% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k13 { animation: k13 14.45s linear infinite; }
+@keyframes k14 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 46.810% { opacity: 0; transform: translate(0px, 0px) } 46.820% { opacity: 1; transform: translate(0px, 0px) } 49.970% { opacity: 1; transform: translate(0px, 0px) } 51.631% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k14 { animation: k14 14.45s linear infinite; }
+@keyframes k15 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 49.960% { opacity: 0; transform: translate(0px, 0px) } 49.970% { opacity: 1; transform: translate(0px, 0px) } 53.126% { opacity: 1; transform: translate(0px, 0px) } 54.787% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k15 { animation: k15 14.45s linear infinite; }
+@keyframes k16 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 53.116% { opacity: 0; transform: translate(0px, 0px) } 53.126% { opacity: 1; transform: translate(0px, 0px) } 56.266% { opacity: 1; transform: translate(0px, 0px) } 57.927% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k16 { animation: k16 14.45s linear infinite; }
+@keyframes k17 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 56.256% { opacity: 0; transform: translate(0px, 0px) } 56.266% { opacity: 1; transform: translate(0px, 0px) } 59.408% { opacity: 1; transform: translate(0px, 0px) } 61.069% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k17 { animation: k17 14.45s linear infinite; }
+@keyframes k18 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 59.398% { opacity: 0; transform: translate(0px, 0px) } 59.408% { opacity: 1; transform: translate(0px, 0px) } 62.602% { opacity: 1; transform: translate(0px, 0px) } 64.263% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k18 { animation: k18 14.45s linear infinite; }
+@keyframes k19 { 0.000% { opacity: 0; transform: translate(0px, 0px) } 62.592% { opacity: 0; transform: translate(0px, 0px) } 62.602% { opacity: 1; transform: translate(0px, 0px) } 65.783% { opacity: 1; transform: translate(0px, 0px) } 67.444% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k19 { animation: k19 14.45s linear infinite; }
+@keyframes k20 { 0.000% { opacity: 0 } 75.077% { opacity: 0 } 75.087% { opacity: 1 } 100.000% { opacity: 1 } } .k20 { animation: k20 14.45s linear infinite; }
+@keyframes k21 { 0.000% { opacity: 1 } 68.995% { opacity: 1 } 69.005% { opacity: 0.3 } 75.077% { opacity: 0.3 } 75.087% { opacity: 1 } 100.000% { opacity: 1 } } .k21 { animation: k21 14.45s linear infinite; }
+@keyframes k22 { 0.000% { opacity: 0.3 } 68.995% { opacity: 0.3 } 69.005% { opacity: 1 } 75.077% { opacity: 1 } 75.087% { opacity: 1 } 100.000% { opacity: 1 } } .k22 { animation: k22 14.45s linear infinite; }
+@keyframes k23 { 0.000% { opacity: 1 } 13.647% { opacity: 1 } 13.657% { opacity: 0 } 100.000% { opacity: 0 } } .k23 { animation: k23 14.45s linear infinite; }
+@keyframes k24 { 0.000% { opacity: 0 } 13.647% { opacity: 0 } 13.657% { opacity: 1 } 15.471% { opacity: 1 } 15.481% { opacity: 0 } 100.000% { opacity: 0 } } .k24 { animation: k24 14.45s linear infinite; }
+@keyframes k25 { 0.000% { opacity: 0 } 15.471% { opacity: 0 } 15.481% { opacity: 1 } 69.769% { opacity: 1 } 69.779% { opacity: 0 } 100.000% { opacity: 0 } } .k25 { animation: k25 14.45s linear infinite; }
+@keyframes k26 { 0.000% { opacity: 0 } 69.769% { opacity: 0 } 69.779% { opacity: 1 } 75.077% { opacity: 1 } 75.087% { opacity: 0 } 100.000% { opacity: 0 } } .k26 { animation: k26 14.45s linear infinite; }
+@keyframes k27 { 0.000% { opacity: 0 } 75.077% { opacity: 0 } 75.087% { opacity: 1 } 100.000% { opacity: 1 } } .k27 { animation: k27 14.45s linear infinite; }
+@keyframes k28 { 0.000% { opacity: 0 } 15.471% { opacity: 0 } 15.481% { opacity: 1 } 100.000% { opacity: 1 } } .k28 { animation: k28 14.45s linear infinite; }
+@keyframes k29 { 0.000% { opacity: 0 } 18.438% { opacity: 0 } 18.448% { opacity: 1 } 100.000% { opacity: 1 } } .k29 { animation: k29 14.45s linear infinite; }
+@keyframes k30 { 0.000% { opacity: 0 } 21.589% { opacity: 0 } 21.599% { opacity: 1 } 100.000% { opacity: 1 } } .k30 { animation: k30 14.45s linear infinite; }
+@keyframes k31 { 0.000% { opacity: 0 } 24.743% { opacity: 0 } 24.753% { opacity: 1 } 100.000% { opacity: 1 } } .k31 { animation: k31 14.45s linear infinite; }
+@keyframes k32 { 0.000% { opacity: 0 } 27.902% { opacity: 0 } 27.912% { opacity: 1 } 100.000% { opacity: 1 } } .k32 { animation: k32 14.45s linear infinite; }
+@keyframes k33 { 0.000% { opacity: 0 } 31.055% { opacity: 0 } 31.065% { opacity: 1 } 100.000% { opacity: 1 } } .k33 { animation: k33 14.45s linear infinite; }
+@keyframes k34 { 0.000% { opacity: 0 } 34.205% { opacity: 0 } 34.215% { opacity: 1 } 100.000% { opacity: 1 } } .k34 { animation: k34 14.45s linear infinite; }
+@keyframes k35 { 0.000% { opacity: 0 } 37.365% { opacity: 0 } 37.375% { opacity: 1 } 100.000% { opacity: 1 } } .k35 { animation: k35 14.45s linear infinite; }
+@keyframes k36 { 0.000% { opacity: 0 } 40.516% { opacity: 0 } 40.526% { opacity: 1 } 100.000% { opacity: 1 } } .k36 { animation: k36 14.45s linear infinite; }
+@keyframes k37 { 0.000% { opacity: 0 } 43.657% { opacity: 0 } 43.667% { opacity: 1 } 100.000% { opacity: 1 } } .k37 { animation: k37 14.45s linear infinite; }
+@keyframes k38 { 0.000% { opacity: 0 } 46.810% { opacity: 0 } 46.820% { opacity: 1 } 100.000% { opacity: 1 } } .k38 { animation: k38 14.45s linear infinite; }
+@keyframes k39 { 0.000% { opacity: 0 } 49.960% { opacity: 0 } 49.970% { opacity: 1 } 100.000% { opacity: 1 } } .k39 { animation: k39 14.45s linear infinite; }
+@keyframes k40 { 0.000% { opacity: 0 } 53.116% { opacity: 0 } 53.126% { opacity: 1 } 100.000% { opacity: 1 } } .k40 { animation: k40 14.45s linear infinite; }
+@keyframes k41 { 0.000% { opacity: 0 } 56.256% { opacity: 0 } 56.266% { opacity: 1 } 100.000% { opacity: 1 } } .k41 { animation: k41 14.45s linear infinite; }
+@keyframes k42 { 0.000% { opacity: 0 } 59.398% { opacity: 0 } 59.408% { opacity: 1 } 100.000% { opacity: 1 } } .k42 { animation: k42 14.45s linear infinite; }
+@keyframes k43 { 0.000% { opacity: 0 } 62.592% { opacity: 0 } 62.602% { opacity: 1 } 100.000% { opacity: 1 } } .k43 { animation: k43 14.45s linear infinite; }
+@keyframes k44 { 0.000% { opacity: 0 } 65.773% { opacity: 0 } 65.783% { opacity: 1 } 100.000% { opacity: 1 } } .k44 { animation: k44 14.45s linear infinite; }
+@keyframes k45 { 0.000% { opacity: 0 } 68.995% { opacity: 0 } 69.005% { opacity: 1 } 100.000% { opacity: 1 } } .k45 { animation: k45 14.45s linear infinite; }
+@keyframes k46 { 0.000% { opacity: 0 } 69.769% { opacity: 0 } 69.779% { opacity: 1 } 100.000% { opacity: 1 } } .k46 { animation: k46 14.45s linear infinite; }
+@keyframes k47 { 0.000% { opacity: 0 } 70.118% { opacity: 0 } 70.128% { opacity: 1 } 100.000% { opacity: 1 } } .k47 { animation: k47 14.45s linear infinite; }
+@keyframes k48 { 0.000% { opacity: 0 } 70.474% { opacity: 0 } 70.484% { opacity: 1 } 100.000% { opacity: 1 } } .k48 { animation: k48 14.45s linear infinite; }
+@keyframes k49 { 0.000% { opacity: 0 } 70.822% { opacity: 0 } 70.832% { opacity: 1 } 100.000% { opacity: 1 } } .k49 { animation: k49 14.45s linear infinite; }
+@keyframes k50 { 0.000% { opacity: 0 } 71.169% { opacity: 0 } 71.179% { opacity: 1 } 100.000% { opacity: 1 } } .k50 { animation: k50 14.45s linear infinite; }
+@keyframes k51 { 0.000% { opacity: 0 } 71.528% { opacity: 0 } 71.538% { opacity: 1 } 100.000% { opacity: 1 } } .k51 { animation: k51 14.45s linear infinite; }
+@keyframes k52 { 0.000% { opacity: 0 } 71.873% { opacity: 0 } 71.883% { opacity: 1 } 100.000% { opacity: 1 } } .k52 { animation: k52 14.45s linear infinite; }
+@keyframes k53 { 0.000% { opacity: 0 } 72.212% { opacity: 0 } 72.222% { opacity: 1 } 100.000% { opacity: 1 } } .k53 { animation: k53 14.45s linear infinite; }
+@keyframes k54 { 0.000% { opacity: 0 } 72.566% { opacity: 0 } 72.576% { opacity: 1 } 100.000% { opacity: 1 } } .k54 { animation: k54 14.45s linear infinite; }
+@keyframes k55 { 0.000% { opacity: 0 } 72.920% { opacity: 0 } 72.930% { opacity: 1 } 100.000% { opacity: 1 } } .k55 { animation: k55 14.45s linear infinite; }
+@keyframes k56 { 0.000% { opacity: 0 } 73.267% { opacity: 0 } 73.277% { opacity: 1 } 100.000% { opacity: 1 } } .k56 { animation: k56 14.45s linear infinite; }
+@keyframes k57 { 0.000% { opacity: 0 } 73.615% { opacity: 0 } 73.625% { opacity: 1 } 100.000% { opacity: 1 } } .k57 { animation: k57 14.45s linear infinite; }
+@keyframes k58 { 0.000% { opacity: 0 } 73.968% { opacity: 0 } 73.978% { opacity: 1 } 100.000% { opacity: 1 } } .k58 { animation: k58 14.45s linear infinite; }
+@keyframes k59 { 0.000% { opacity: 0 } 74.314% { opacity: 0 } 74.324% { opacity: 1 } 100.000% { opacity: 1 } } .k59 { animation: k59 14.45s linear infinite; }
+@keyframes k60 { 0.000% { opacity: 0 } 74.668% { opacity: 0 } 74.678% { opacity: 1 } 100.000% { opacity: 1 } } .k60 { animation: k60 14.45s linear infinite; }
+@keyframes k61 { 0.000% { opacity: 0 } 75.025% { opacity: 0 } 75.035% { opacity: 1 } 100.000% { opacity: 1 } } .k61 { animation: k61 14.45s linear infinite; }
+@keyframes k62 { 0.000% { opacity: 0 } 13.647% { opacity: 0 } 13.657% { opacity: 1 } 100.000% { opacity: 1 } } .k62 { animation: k62 14.45s linear infinite; }
+@keyframes k63 { 0.000% { opacity: 0 } 43.657% { opacity: 0 } 43.667% { opacity: 1 } 100.000% { opacity: 1 } } .k63 { animation: k63 14.45s linear infinite; }
+@keyframes k64 { 0.000% { opacity: 1; transform: translateX(0px) } 9.689% { opacity: 1; transform: translateX(0px) } 75.087% { opacity: 1; transform: translateX(664.0px) } 75.097% { opacity: 0; transform: translateX(664.0px) } 100.000% { opacity: 0; transform: translateX(664.0px) } } .k64 { animation: k64 14.45s linear infinite; }
+@keyframes k65 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 9.689% { opacity: 1; transform: translate(0px, 0px) } 10.196% { opacity: 0; transform: translate(40.0px, 0px) } 100.000% { opacity: 0; transform: translate(40.0px, 0px) } } .k65 { animation: k65 14.45s linear infinite; }
+@keyframes k66 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 10.534% { opacity: 1; transform: translate(0px, 0px) } 11.084% { opacity: 0; transform: translate(50.0px, 0px) } 100.000% { opacity: 0; transform: translate(50.0px, 0px) } } .k66 { animation: k66 14.45s linear infinite; }
+@keyframes k67 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 11.451% { opacity: 1; transform: translate(0px, 0px) } 12.664% { opacity: 0; transform: translate(60.0px, 0px) } 100.000% { opacity: 0; transform: translate(60.0px, 0px) } } .k67 { animation: k67 14.45s linear infinite; }
+@keyframes k68 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 13.473% { opacity: 1; transform: translate(0px, 0px) } 15.134% { opacity: 0; transform: translate(70.0px, 0px) } 100.000% { opacity: 0; transform: translate(70.0px, 0px) } } .k68 { animation: k68 14.45s linear infinite; }
+@keyframes k69 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 16.592% { opacity: 1; transform: translate(0px, 0px) } 18.253% { opacity: 0; transform: translate(80.0px, 0px) } 100.000% { opacity: 0; transform: translate(80.0px, 0px) } } .k69 { animation: k69 14.45s linear infinite; }
+@keyframes k70 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 20.109% { opacity: 1; transform: translate(0px, 0px) } 21.770% { opacity: 0; transform: translate(90.0px, 0px) } 100.000% { opacity: 0; transform: translate(90.0px, 0px) } } .k70 { animation: k70 14.45s linear infinite; }
+@keyframes k71 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 24.095% { opacity: 1; transform: translate(0px, 0px) } 25.756% { opacity: 0; transform: translate(100.0px, 0px) } 100.000% { opacity: 0; transform: translate(100.0px, 0px) } } .k71 { animation: k71 14.45s linear infinite; }
+@keyframes k72 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 27.785% { opacity: 1; transform: translate(0px, 0px) } 29.446% { opacity: 0; transform: translate(110.0px, 0px) } 100.000% { opacity: 0; transform: translate(110.0px, 0px) } } .k72 { animation: k72 14.45s linear infinite; }
+@keyframes k73 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 31.449% { opacity: 1; transform: translate(0px, 0px) } 33.110% { opacity: 0; transform: translate(120.0px, 0px) } 100.000% { opacity: 0; transform: translate(120.0px, 0px) } } .k73 { animation: k73 14.45s linear infinite; }
+@keyframes k74 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 35.448% { opacity: 1; transform: translate(0px, 0px) } 37.109% { opacity: 0; transform: translate(130.0px, 0px) } 100.000% { opacity: 0; transform: translate(130.0px, 0px) } } .k74 { animation: k74 14.45s linear infinite; }
+@keyframes k75 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 38.984% { opacity: 1; transform: translate(0px, 0px) } 40.645% { opacity: 0; transform: translate(140.0px, 0px) } 100.000% { opacity: 0; transform: translate(140.0px, 0px) } } .k75 { animation: k75 14.45s linear infinite; }
+@keyframes k76 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 42.967% { opacity: 1; transform: translate(0px, 0px) } 44.628% { opacity: 0; transform: translate(150.0px, 0px) } 100.000% { opacity: 0; transform: translate(150.0px, 0px) } } .k76 { animation: k76 14.45s linear infinite; }
+@keyframes k77 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 46.657% { opacity: 1; transform: translate(0px, 0px) } 48.318% { opacity: 0; transform: translate(160.0px, 0px) } 100.000% { opacity: 0; transform: translate(160.0px, 0px) } } .k77 { animation: k77 14.45s linear infinite; }
+@keyframes k78 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 50.570% { opacity: 1; transform: translate(0px, 0px) } 52.231% { opacity: 0; transform: translate(170.0px, 0px) } 100.000% { opacity: 0; transform: translate(170.0px, 0px) } } .k78 { animation: k78 14.45s linear infinite; }
+@keyframes k79 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 54.020% { opacity: 1; transform: translate(0px, 0px) } 55.681% { opacity: 0; transform: translate(180.0px, 0px) } 100.000% { opacity: 0; transform: translate(180.0px, 0px) } } .k79 { animation: k79 14.45s linear infinite; }
+@keyframes k80 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 58.107% { opacity: 1; transform: translate(0px, 0px) } 59.768% { opacity: 0; transform: translate(190.0px, 0px) } 100.000% { opacity: 0; transform: translate(190.0px, 0px) } } .k80 { animation: k80 14.45s linear infinite; }
+@keyframes k81 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 61.648% { opacity: 1; transform: translate(0px, 0px) } 63.309% { opacity: 0; transform: translate(200.0px, 0px) } 100.000% { opacity: 0; transform: translate(200.0px, 0px) } } .k81 { animation: k81 14.45s linear infinite; }
+@keyframes k82 { 0.000% { opacity: 1; transform: translate(0px, 0px) } 65.597% { opacity: 1; transform: translate(0px, 0px) } 67.258% { opacity: 0; transform: translate(210.0px, 0px) } 100.000% { opacity: 0; transform: translate(210.0px, 0px) } } .k82 { animation: k82 14.45s linear infinite; }
+@keyframes k83 { 0.000% { opacity: 0 } 75.077% { opacity: 0 } 75.087% { opacity: 1 } 100.000% { opacity: 1 } } .k83 { animation: k83 14.45s linear infinite; }
+@keyframes k84 { 0.000% { opacity: 1 } 69.186% { opacity: 1 } 69.196% { opacity: 0.3 } 75.077% { opacity: 0.3 } 75.087% { opacity: 1 } 100.000% { opacity: 1 } } .k84 { animation: k84 14.45s linear infinite; }
+@keyframes k85 { 0.000% { opacity: 0.3 } 69.186% { opacity: 0.3 } 69.196% { opacity: 1 } 75.077% { opacity: 1 } 75.087% { opacity: 1 } 100.000% { opacity: 1 } } .k85 { animation: k85 14.45s linear infinite; }
+@keyframes k86 { 0.000% { opacity: 1 } 13.463% { opacity: 1 } 13.473% { opacity: 0 } 100.000% { opacity: 0 } } .k86 { animation: k86 14.45s linear infinite; }
+@keyframes k87 { 0.000% { opacity: 0 } 13.463% { opacity: 0 } 13.473% { opacity: 1 } 16.582% { opacity: 1 } 16.592% { opacity: 0 } 100.000% { opacity: 0 } } .k87 { animation: k87 14.45s linear infinite; }
+@keyframes k88 { 0.000% { opacity: 0 } 16.582% { opacity: 0 } 16.592% { opacity: 1 } 70.441% { opacity: 1 } 70.451% { opacity: 0 } 100.000% { opacity: 0 } } .k88 { animation: k88 14.45s linear infinite; }
+@keyframes k89 { 0.000% { opacity: 0 } 70.441% { opacity: 0 } 70.451% { opacity: 1 } 75.077% { opacity: 1 } 75.087% { opacity: 0 } 100.000% { opacity: 0 } } .k89 { animation: k89 14.45s linear infinite; }
+@keyframes k90 { 0.000% { opacity: 0 } 75.077% { opacity: 0 } 75.087% { opacity: 1 } 100.000% { opacity: 1 } } .k90 { animation: k90 14.45s linear infinite; }
+@keyframes k91 { 0.000% { opacity: 0 } 16.582% { opacity: 0 } 16.592% { opacity: 1 } 100.000% { opacity: 1 } } .k91 { animation: k91 14.45s linear infinite; }
+@keyframes k92 { 0.000% { opacity: 0 } 70.441% { opacity: 0 } 70.451% { opacity: 1 } 100.000% { opacity: 1 } } .k92 { animation: k92 14.45s linear infinite; }
+@keyframes k93 { 0.000% { opacity: 0 } 70.845% { opacity: 0 } 70.855% { opacity: 1 } 100.000% { opacity: 1 } } .k93 { animation: k93 14.45s linear infinite; }
+@keyframes k94 { 0.000% { opacity: 0 } 71.234% { opacity: 0 } 71.244% { opacity: 1 } 100.000% { opacity: 1 } } .k94 { animation: k94 14.45s linear infinite; }
+@keyframes k95 { 0.000% { opacity: 0 } 71.630% { opacity: 0 } 71.640% { opacity: 1 } 100.000% { opacity: 1 } } .k95 { animation: k95 14.45s linear infinite; }
+@keyframes k96 { 0.000% { opacity: 0 } 72.019% { opacity: 0 } 72.029% { opacity: 1 } 100.000% { opacity: 1 } } .k96 { animation: k96 14.45s linear infinite; }
+@keyframes k97 { 0.000% { opacity: 0 } 72.422% { opacity: 0 } 72.432% { opacity: 1 } 100.000% { opacity: 1 } } .k97 { animation: k97 14.45s linear infinite; }
+@keyframes k98 { 0.000% { opacity: 0 } 72.820% { opacity: 0 } 72.830% { opacity: 1 } 100.000% { opacity: 1 } } .k98 { animation: k98 14.45s linear infinite; }
+@keyframes k99 { 0.000% { opacity: 0 } 73.217% { opacity: 0 } 73.227% { opacity: 1 } 100.000% { opacity: 1 } } .k99 { animation: k99 14.45s linear infinite; }
+@keyframes k100 { 0.000% { opacity: 0 } 73.594% { opacity: 0 } 73.604% { opacity: 1 } 100.000% { opacity: 1 } } .k100 { animation: k100 14.45s linear infinite; }
+@keyframes k101 { 0.000% { opacity: 0 } 73.995% { opacity: 0 } 74.005% { opacity: 1 } 100.000% { opacity: 1 } } .k101 { animation: k101 14.45s linear infinite; }
+@keyframes k102 { 0.000% { opacity: 0 } 74.389% { opacity: 0 } 74.399% { opacity: 1 } 100.000% { opacity: 1 } } .k102 { animation: k102 14.45s linear infinite; }
+@keyframes k103 { 0.000% { opacity: 0 } 74.794% { opacity: 0 } 74.804% { opacity: 1 } 100.000% { opacity: 1 } } .k103 { animation: k103 14.45s linear infinite; }
+@keyframes k104 { 0.000% { opacity: 0 } 13.463% { opacity: 0 } 13.473% { opacity: 1 } 100.000% { opacity: 1 } } .k104 { animation: k104 14.45s linear infinite; }
+@keyframes k105 { 0.000% { opacity: 0 } 70.441% { opacity: 0 } 70.451% { opacity: 1 } 100.000% { opacity: 1 } } .k105 { animation: k105 14.45s linear infinite; }
+@keyframes k106 { 0.000% { opacity: 1; transform: translateX(0px) } 9.689% { opacity: 1; transform: translateX(0px) } 75.087% { opacity: 1; transform: translateX(664.0px) } 75.097% { opacity: 0; transform: translateX(664.0px) } 100.000% { opacity: 0; transform: translateX(664.0px) } } .k106 { animation: k106 14.45s linear infinite; }</style>
+<text x="16" y="20" font-size="14" font-weight="700" fill="#1b2a3a">vLLM</text>
+<text x="60" y="20" font-size="11.5" class="svg-muted">adds new prompts to the steps that decode running requests</text>
+<text x="16" y="38" font-size="10.5" class="svg-muted">new prompts waiting</text>
+<g class="anim k0" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k1" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k2" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#1b2a3a"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k3" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k4" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k5" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k6" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k7" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k8" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k9" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k10" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k11" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k12" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k13" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k14" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k15" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k16" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k17" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k18" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,56.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,66.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,76.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,86.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,96.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M196.0,106.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k19" opacity="0"><path d="M196.0,46.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<text class="anim k20" x="111" y="78" font-size="10.5" text-anchor="middle"><tspan x="111" fill="#5b6472">about 7 arrive as earlier requests</tspan><tspan x="111" dy="14" fill="#5b6472">finish, and 7 are read each step</tspan></text>
+<line x1="208" y1="84" x2="222" y2="84" stroke="currentColor" marker-end="url(#ar)"/>
+<rect x="226" y="42" width="260" height="84" rx="6" class="svg-surface" stroke="currentColor"/>
+<text x="238" y="59" font-size="12" font-weight="600" fill="currentColor">GPU step</text>
+<g class="anim k21"><rect x="238" y="69" width="4" height="26" rx="1" fill="#2b4c7e"/><text x="249" y="80" font-size="11" font-weight="600" fill="currentColor">7 new prompts + ~100 running requests</text><text x="249" y="93" font-size="10.5" class="svg-muted">152 ms · every running request gets a token</text></g>
+<g class="anim k22"><rect x="238" y="99" width="4" height="26" rx="1" fill="#8a93a3"/><text x="249" y="110" font-size="11" font-weight="600" fill="currentColor">128 running requests, decode only</text><text x="249" y="123" font-size="10.5" class="svg-muted">17 ms · every running request gets a token</text></g>
+<line x1="488" y1="84" x2="502" y2="84" stroke="currentColor" marker-end="url(#ar)"/>
+<rect x="506" y="42" width="238" height="84" rx="6" class="svg-surface" stroke="currentColor"/>
+<path d="M516.0,50.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#1b2a3a"/>
+<text x="530" y="59" font-size="12" font-weight="600" fill="currentColor">one new request</text>
+<text x="516" y="76" font-size="10" class="mono svg-muted">"Summarize the report below…"</text>
+<text class="anim k23" opacity="0" x="516" y="97" font-size="11" fill="#5b6472">waiting for a step<tspan x="516" dy="14"></tspan></text>
+<text class="anim k24" opacity="0" x="516" y="97" font-size="11" font-weight="600" fill="#2b4c7e">prefill: its whole 1,024-token prompt is<tspan x="516" dy="14">read in one step, which gives token 1</tspan></text>
+<text class="anim k25" opacity="0" x="516" y="97" font-size="11" fill="#1b2a3a">decoding while new prompts are read:<tspan x="516" dy="14">one token per step, every ~152 ms</tspan></text>
+<text class="anim k26" opacity="0" x="516" y="97" font-size="11" fill="#1b2a3a">decoding: a token every ~17 ms<tspan x="516" dy="14"></tspan></text>
+<text class="anim k27" x="516" y="97" font-size="11" font-weight="600" fill="#1b2a3a">longest wait between its tokens:<tspan x="516" dy="14">0.16 s</tspan></text>
+<text x="74" y="146" font-size="10.5" text-anchor="end" class="svg-muted">its reply</text>
+<text class="anim k28" x="80.0" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">The</text>
+<text class="anim k29" x="104.2" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">report</text>
+<text class="anim k30" x="146.6" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">covers</text>
+<text class="anim k31" x="188.9" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">three</text>
+<text class="anim k32" x="225.2" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">areas.</text>
+<text class="anim k33" x="267.6" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">Sales</text>
+<text class="anim k34" x="303.9" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">rose</text>
+<text class="anim k35" x="334.1" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">12%</text>
+<text class="anim k36" x="358.3" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">in</text>
+<text class="anim k37" x="376.4" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">the</text>
+<text class="anim k38" x="400.6" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">third</text>
+<text class="anim k39" x="436.9" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">quarter,</text>
+<text class="anim k40" x="491.4" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">led</text>
+<text class="anim k41" x="515.6" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">by</text>
+<text class="anim k42" x="533.8" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">new</text>
+<text class="anim k43" x="558.0" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">customers</text>
+<text class="anim k44" x="618.5" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">in</text>
+<text class="anim k45" x="636.6" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">Asia.</text>
+<text class="anim k46" x="672.9" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">Costs</text>
+<text class="anim k47" x="709.2" y="146" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">fell</text>
+<text class="anim k48" x="80.0" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">4%</text>
+<text class="anim k49" x="98.2" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">after</text>
+<text class="anim k50" x="134.4" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">the</text>
+<text class="anim k51" x="158.6" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">move</text>
+<text class="anim k52" x="188.9" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">to</text>
+<text class="anim k53" x="207.0" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">a</text>
+<text class="anim k54" x="219.1" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">cheaper</text>
+<text class="anim k55" x="267.5" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">cloud</text>
+<text class="anim k56" x="303.8" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">plan.</text>
+<text class="anim k57" x="340.1" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">The</text>
+<text class="anim k58" x="364.3" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">main</text>
+<text class="anim k59" x="394.6" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">risk</text>
+<text class="anim k60" x="424.8" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">is</text>
+<text class="anim k61" x="443.0" y="160" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">a</text>
+<text x="74" y="196" font-size="10.5" text-anchor="end" class="svg-muted">steps</text>
+<text x="74" y="218" font-size="10.5" text-anchor="end" class="svg-muted">its tokens</text>
+<rect x="80.6" y="184" width="20.5" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="102.3" y="184" width="17.4" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="120.9" y="184" width="17.3" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="139.4" y="184" width="28.9" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="169.5" y="184" width="30.8" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="201.5" y="184" width="30.8" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="233.6" y="184" width="30.9" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="265.6" y="184" width="30.8" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="297.6" y="184" width="30.8" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="329.6" y="184" width="30.9" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="361.7" y="184" width="30.8" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="393.7" y="184" width="30.7" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="425.6" y="184" width="30.8" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="457.6" y="184" width="30.8" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="489.6" y="184" width="30.8" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="521.6" y="184" width="30.7" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="553.5" y="184" width="30.7" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="585.4" y="184" width="31.2" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="617.8" y="184" width="31.1" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="650.1" y="184" width="31.5" height="16" rx="1.5" fill="#2b4c7e"/>
+<rect x="682.3" y="184" width="7.9" height="16" fill="#dfe3ea"/>
+<line x1="690.1" y1="184" x2="690.1" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="690.1" y="184" width="3.5" height="16" fill="#dfe3ea"/>
+<line x1="693.7" y1="184" x2="693.7" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="693.7" y="184" width="3.6" height="16" fill="#dfe3ea"/>
+<line x1="697.3" y1="184" x2="697.3" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="697.3" y="184" width="3.5" height="16" fill="#dfe3ea"/>
+<line x1="700.8" y1="184" x2="700.8" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="700.8" y="184" width="3.5" height="16" fill="#dfe3ea"/>
+<line x1="704.3" y1="184" x2="704.3" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="704.3" y="184" width="3.6" height="16" fill="#dfe3ea"/>
+<line x1="708.0" y1="184" x2="708.0" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="708.0" y="184" width="3.5" height="16" fill="#dfe3ea"/>
+<line x1="711.5" y1="184" x2="711.5" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="711.5" y="184" width="3.4" height="16" fill="#dfe3ea"/>
+<line x1="714.9" y1="184" x2="714.9" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="714.9" y="184" width="3.6" height="16" fill="#dfe3ea"/>
+<line x1="718.5" y1="184" x2="718.5" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="718.5" y="184" width="3.6" height="16" fill="#dfe3ea"/>
+<line x1="722.1" y1="184" x2="722.1" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="722.1" y="184" width="3.5" height="16" fill="#dfe3ea"/>
+<line x1="725.6" y1="184" x2="725.6" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="725.6" y="184" width="3.5" height="16" fill="#dfe3ea"/>
+<line x1="729.2" y1="184" x2="729.2" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="729.2" y="184" width="3.6" height="16" fill="#dfe3ea"/>
+<line x1="732.7" y1="184" x2="732.7" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="732.7" y="184" width="3.5" height="16" fill="#dfe3ea"/>
+<line x1="736.3" y1="184" x2="736.3" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="736.3" y="184" width="3.6" height="16" fill="#dfe3ea"/>
+<line x1="739.8" y1="184" x2="739.8" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="739.8" y="184" width="3.6" height="16" fill="#dfe3ea"/>
+<line x1="743.5" y1="184" x2="743.5" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="743.5" y="184" width="0.5" height="16" fill="#dfe3ea"/>
+<line x1="744.0" y1="184" x2="744.0" y2="200" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="119.3" y="182" width="20.5" height="20" rx="2" fill="none" stroke="#1b2a3a" stroke-width="1.6"/>
+<line x1="80" y1="214" x2="744.0" y2="214" stroke="currentColor" stroke-width="0.6"/>
+<line x1="138.8" y1="208" x2="138.8" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="168.9" y1="208" x2="168.9" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="200.9" y1="208" x2="200.9" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="233.0" y1="208" x2="233.0" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="265.0" y1="208" x2="265.0" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="297.0" y1="208" x2="297.0" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="329.0" y1="208" x2="329.0" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="361.1" y1="208" x2="361.1" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="393.1" y1="208" x2="393.1" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="425.0" y1="208" x2="425.0" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="457.0" y1="208" x2="457.0" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="489.0" y1="208" x2="489.0" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="521.0" y1="208" x2="521.0" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="552.9" y1="208" x2="552.9" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="584.8" y1="208" x2="584.8" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="617.2" y1="208" x2="617.2" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="649.5" y1="208" x2="649.5" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="682.3" y1="208" x2="682.3" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="690.1" y1="208" x2="690.1" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="693.7" y1="208" x2="693.7" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="697.3" y1="208" x2="697.3" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="700.8" y1="208" x2="700.8" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="704.3" y1="208" x2="704.3" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="708.0" y1="208" x2="708.0" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="711.5" y1="208" x2="711.5" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="714.9" y1="208" x2="714.9" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="718.5" y1="208" x2="718.5" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="722.1" y1="208" x2="722.1" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="725.6" y1="208" x2="725.6" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="729.2" y1="208" x2="729.2" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="732.7" y1="208" x2="732.7" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="736.3" y1="208" x2="736.3" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="739.8" y1="208" x2="739.8" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="743.5" y1="208" x2="743.5" y2="220" stroke="#1b2a3a" stroke-width="1.1"/>
+<path d="M393.1,223 v4 H425.0 v-4" fill="none" stroke="#1b2a3a" stroke-width="1.2"/>
+<rect class="anim k64" opacity="0" x="80.5" y="168" width="694.0" height="76" fill="#ffffff"/>
+<line class="anim k64" opacity="0" x1="80" y1="178" x2="80" y2="224" stroke="#1b2a3a" stroke-width="1.5"/>
+<text class="anim k62" x="116.3" y="180" font-size="9.5" text-anchor="end" fill="#5b6472">its prefill</text><text class="anim k63" x="409.0" y="239" font-size="11" font-weight="600" text-anchor="middle" fill="#1b2a3a">a token every ~152 ms</text>
+<text x="16" y="264" font-size="14" font-weight="700" fill="#1b2a3a">SGLang</text>
+<text x="78" y="264" font-size="11.5" class="svg-muted">reads new prompts in separate steps, and running requests wait</text>
+<text x="16" y="282" font-size="10.5" class="svg-muted">new prompts waiting</text>
+<g class="anim k65" opacity="0"><path d="M196.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k66" opacity="0"><path d="M186.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M186.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M186.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M186.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M186.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k67" opacity="0"><path d="M176.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M176.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M176.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M176.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M176.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M176.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k68" opacity="0"><path d="M166.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#1b2a3a"/><path d="M166.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M166.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M166.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M166.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M166.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M166.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M166.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k69" opacity="0"><path d="M156.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M156.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M156.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M156.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M156.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M156.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M156.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M156.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k70" opacity="0"><path d="M146.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M146.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M146.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M146.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M146.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M146.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M146.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M146.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k71" opacity="0"><path d="M136.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M136.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M136.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M136.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M136.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M136.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M136.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M136.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k72" opacity="0"><path d="M126.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M126.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M126.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M126.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M126.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M126.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M126.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M126.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k73" opacity="0"><path d="M116.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M116.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M116.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M116.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M116.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M116.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M116.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M116.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k74" opacity="0"><path d="M106.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M106.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M106.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M106.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M106.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M106.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M106.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M106.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k75" opacity="0"><path d="M96.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M96.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M96.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M96.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M96.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M96.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M96.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M96.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k76" opacity="0"><path d="M86.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M86.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M86.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M86.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M86.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M86.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M86.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M86.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k77" opacity="0"><path d="M76.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M76.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M76.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M76.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M76.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M76.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M76.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M76.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k78" opacity="0"><path d="M66.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M66.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M66.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M66.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M66.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M66.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M66.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M66.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k79" opacity="0"><path d="M56.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M56.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M56.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M56.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M56.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M56.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M56.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M56.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k80" opacity="0"><path d="M46.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M46.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M46.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M46.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M46.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M46.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M46.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M46.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k81" opacity="0"><path d="M36.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M36.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M36.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M36.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M36.0,330.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M36.0,340.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M36.0,350.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M36.0,360.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<g class="anim k82" opacity="0"><path d="M26.0,290.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M26.0,300.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M26.0,310.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/><path d="M26.0,320.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/></g>
+<text class="anim k83" x="111" y="322" font-size="10.5" text-anchor="middle"><tspan x="111" fill="#5b6472">all 128 arrived at once,</tspan><tspan x="111" dy="14" fill="#5b6472">and 8 are read each step</tspan></text>
+<line x1="208" y1="328" x2="222" y2="328" stroke="currentColor" marker-end="url(#ar)"/>
+<rect x="226" y="286" width="260" height="84" rx="6" class="svg-surface" stroke="currentColor"/>
+<text x="238" y="303" font-size="12" font-weight="600" fill="currentColor">GPU step</text>
+<g class="anim k84"><rect x="238" y="313" width="4" height="26" rx="1" fill="#d0675a"/><text x="249" y="324" font-size="11" font-weight="600" fill="currentColor">8 new prompts (8,192 tokens)</text><text x="249" y="337" font-size="10.5" class="svg-muted">181 ms · running requests get no token</text></g>
+<g class="anim k85"><rect x="238" y="343" width="4" height="26" rx="1" fill="#8a93a3"/><text x="249" y="354" font-size="11" font-weight="600" fill="currentColor">128 running requests, decode only</text><text x="249" y="367" font-size="10.5" class="svg-muted">19 ms · every running request gets a token</text></g>
+<line x1="488" y1="328" x2="502" y2="328" stroke="currentColor" marker-end="url(#ar)"/>
+<rect x="506" y="286" width="238" height="84" rx="6" class="svg-surface" stroke="currentColor"/>
+<path d="M516.0,294.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#1b2a3a"/>
+<text x="530" y="303" font-size="12" font-weight="600" fill="currentColor">one new request</text>
+<text x="516" y="320" font-size="10" class="mono svg-muted">"Summarize the report below…"</text>
+<text class="anim k86" opacity="0" x="516" y="341" font-size="11" fill="#5b6472">waiting for a step<tspan x="516" dy="14"></tspan></text>
+<text class="anim k87" opacity="0" x="516" y="341" font-size="11" font-weight="600" fill="#d0675a">prefill: its whole 1,024-token prompt is<tspan x="516" dy="14">read in one step, which gives token 1</tspan></text>
+<text class="anim k88" opacity="0" x="516" y="341" font-size="11" font-weight="600" fill="#d0675a">paused: every step reads other prompts,<tspan x="516" dy="14">no token until all of them are read</tspan></text>
+<text class="anim k89" opacity="0" x="516" y="341" font-size="11" fill="#1b2a3a">decoding: a token every ~19 ms<tspan x="516" dy="14"></tspan></text>
+<text class="anim k90" x="516" y="341" font-size="11" font-weight="600" fill="#d0675a">longest wait between its tokens:<tspan x="516" dy="14">2.6 s</tspan></text>
+<text x="74" y="390" font-size="10.5" text-anchor="end" class="svg-muted">its reply</text>
+<text class="anim k91" x="80.0" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">The</text>
+<text class="anim k92" x="104.2" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">report</text>
+<text class="anim k93" x="146.6" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">covers</text>
+<text class="anim k94" x="188.9" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">three</text>
+<text class="anim k95" x="225.2" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">areas.</text>
+<text class="anim k96" x="267.6" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">Sales</text>
+<text class="anim k97" x="303.9" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">rose</text>
+<text class="anim k98" x="334.1" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">12%</text>
+<text class="anim k99" x="358.3" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">in</text>
+<text class="anim k100" x="376.4" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">the</text>
+<text class="anim k101" x="400.6" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">third</text>
+<text class="anim k102" x="436.9" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">quarter,</text>
+<text class="anim k103" x="491.4" y="390" font-size="10" fill="currentColor" font-family="IBM Plex Mono, SFMono-Regular, Menlo, Consolas, monospace">led</text>
+<text x="74" y="440" font-size="10.5" text-anchor="end" class="svg-muted">steps</text>
+<text x="74" y="462" font-size="10.5" text-anchor="end" class="svg-muted">its tokens</text>
+<rect x="80.6" y="428" width="7.4" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="89.2" y="428" width="8.1" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="98.5" y="428" width="19.3" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="119.0" y="428" width="30.5" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="150.7" y="428" width="34.5" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="186.4" y="428" width="39.3" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="226.9" y="428" width="36.3" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="264.3" y="428" width="36.0" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="301.5" y="428" width="39.4" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="342.1" y="428" width="34.7" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="378.0" y="428" width="39.2" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="418.5" y="428" width="36.3" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="455.9" y="428" width="38.5" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="495.7" y="428" width="33.8" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="530.7" y="428" width="40.3" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="572.2" y="428" width="34.8" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="608.2" y="428" width="38.9" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="648.3" y="428" width="35.3" height="16" rx="1.5" fill="#d0675a"/>
+<rect x="684.2" y="428" width="12.7" height="16" fill="#dfe3ea"/>
+<line x1="696.9" y1="428" x2="696.9" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="696.9" y="428" width="4.1" height="16" fill="#dfe3ea"/>
+<line x1="701.0" y1="428" x2="701.0" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="701.0" y="428" width="3.9" height="16" fill="#dfe3ea"/>
+<line x1="705.0" y1="428" x2="705.0" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="705.0" y="428" width="4.0" height="16" fill="#dfe3ea"/>
+<line x1="709.0" y1="428" x2="709.0" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="709.0" y="428" width="4.0" height="16" fill="#dfe3ea"/>
+<line x1="713.0" y1="428" x2="713.0" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="713.0" y="428" width="4.1" height="16" fill="#dfe3ea"/>
+<line x1="717.1" y1="428" x2="717.1" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="717.1" y="428" width="4.0" height="16" fill="#dfe3ea"/>
+<line x1="721.1" y1="428" x2="721.1" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="721.1" y="428" width="4.0" height="16" fill="#dfe3ea"/>
+<line x1="725.1" y1="428" x2="725.1" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="725.1" y="428" width="3.8" height="16" fill="#dfe3ea"/>
+<line x1="728.9" y1="428" x2="728.9" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="728.9" y="428" width="4.1" height="16" fill="#dfe3ea"/>
+<line x1="733.0" y1="428" x2="733.0" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="733.0" y="428" width="4.0" height="16" fill="#dfe3ea"/>
+<line x1="737.0" y1="428" x2="737.0" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="737.0" y="428" width="4.1" height="16" fill="#dfe3ea"/>
+<line x1="741.1" y1="428" x2="741.1" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="741.1" y="428" width="2.9" height="16" fill="#dfe3ea"/>
+<line x1="744.0" y1="428" x2="744.0" y2="444" stroke="#ffffff" stroke-width="0.7"/>
+<rect x="117.4" y="426" width="33.7" height="20" rx="2" fill="none" stroke="#1b2a3a" stroke-width="1.6"/>
+<line x1="80" y1="458" x2="744.0" y2="458" stroke="currentColor" stroke-width="0.6"/>
+<line x1="150.1" y1="452" x2="150.1" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="696.9" y1="452" x2="696.9" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="701.0" y1="452" x2="701.0" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="705.0" y1="452" x2="705.0" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="709.0" y1="452" x2="709.0" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="713.0" y1="452" x2="713.0" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="717.1" y1="452" x2="717.1" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="721.1" y1="452" x2="721.1" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="725.1" y1="452" x2="725.1" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="728.9" y1="452" x2="728.9" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="733.0" y1="452" x2="733.0" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="737.0" y1="452" x2="737.0" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<line x1="741.1" y1="452" x2="741.1" y2="464" stroke="#1b2a3a" stroke-width="1.1"/>
+<path d="M150.1,467 v4 H696.9 v-4" fill="none" stroke="#d0675a" stroke-width="1.2"/>
+<rect class="anim k106" opacity="0" x="80.5" y="412" width="694.0" height="76" fill="#ffffff"/>
+<line class="anim k106" opacity="0" x1="80" y1="422" x2="80" y2="468" stroke="#1b2a3a" stroke-width="1.5"/>
+<text class="anim k104" x="114.4" y="424" font-size="9.5" text-anchor="end" fill="#5b6472">its prefill</text><text class="anim k105" x="423.5" y="483" font-size="11" font-weight="600" text-anchor="middle" fill="#d0675a">no token for 2.6 s</text>
+<line x1="80" y1="498" x2="744.0" y2="498" stroke="currentColor"/>
+<line x1="80.0" y1="498" x2="80.0" y2="502" stroke="currentColor"/>
+<text x="80.0" y="514" font-size="10.5" text-anchor="middle" class="svg-muted mono">0 s</text>
+<line x1="290.79365079365084" y1="498" x2="290.79365079365084" y2="502" stroke="currentColor"/>
+<text x="290.79365079365084" y="514" font-size="10.5" text-anchor="middle" class="svg-muted mono">1 s</text>
+<line x1="501.5873015873016" y1="498" x2="501.5873015873016" y2="502" stroke="currentColor"/>
+<text x="501.5873015873016" y="514" font-size="10.5" text-anchor="middle" class="svg-muted mono">2 s</text>
+<line x1="712.3809523809524" y1="498" x2="712.3809523809524" y2="502" stroke="currentColor"/>
+<text x="712.3809523809524" y="514" font-size="10.5" text-anchor="middle" class="svg-muted mono">3 s</text>
+<rect x="16" y="530" width="14" height="12" rx="2" fill="#dfe3ea"/>
+<text x="36" y="540" font-size="11" fill="currentColor">decode-only step</text>
+<rect x="155.6" y="530" width="14" height="12" rx="2" fill="#2b4c7e"/>
+<text x="175.6" y="540" font-size="11" fill="currentColor">new prompts mixed with decoding</text>
+<rect x="386.7" y="530" width="14" height="12" rx="2" fill="#d0675a"/>
+<text x="406.7" y="540" font-size="11" fill="currentColor">new prompts only, no decoding</text>
+<path d="M608.6,531.0 h5 l2.2,2.2 v6.6 h-7.2 z" fill="#b9c3d2"/>
+<text x="625.5999999999999" y="540" font-size="11" fill="currentColor">a new 1,024-token prompt</text>
+<text x="16" y="560" font-size="11" class="svg-muted">One wave of new prompts on NVFP4 at 128 concurrent requests, replayed from the engines' step traces 3× slower than real time.</text>
+<text x="16" y="576" font-size="11" class="svg-muted">The request followed is read early in the wave, so on SGLang it waits almost the longest (the median request waits 1.35 s).</text>
+<text x="16" y="592" font-size="11" class="svg-muted">Prompt and reply text are illustrative: the benchmark sends random tokens.</text>
+</svg>
