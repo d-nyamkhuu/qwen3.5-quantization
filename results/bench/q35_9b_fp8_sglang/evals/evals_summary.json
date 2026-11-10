@@ -1,0 +1,54 @@
+{
+  "bfcl": {
+    "n": 1000,
+    "errors": 0,
+    "truncated": 0,
+    "mean_completion_tokens": 96.8,
+    "correct": 0.917,
+    "tool_parse_error": 0.0,
+    "emitted_any_call": 0.986,
+    "by_category": {
+      "simple": 0.9425,
+      "multiple": 0.95,
+      "parallel": 0.85,
+      "parallel_multiple": 0.9
+    },
+    "wall_s": 439.7
+  },
+  "json": {
+    "n": 100,
+    "errors": 0,
+    "truncated": 0,
+    "mean_completion_tokens": 90.7,
+    "parsed": 1.0,
+    "schema_valid": 0.99,
+    "correct": 0.78,
+    "wall_s": 452.9
+  },
+  "json_constrained": {
+    "n": 100,
+    "errors": 2,
+    "truncated": 0,
+    "mean_completion_tokens": 86.3,
+    "parsed": 0.98,
+    "schema_valid": 0.98,
+    "correct": 0.76,
+    "wall_s": 459.0
+  },
+  "gpqa": {
+    "n": 100,
+    "errors": 0,
+    "truncated": 59,
+    "mean_completion_tokens": 13673.9,
+    "correct": 0.38,
+    "wall_s": 638.8
+  },
+  "math": {
+    "n": 100,
+    "errors": 0,
+    "truncated": 20,
+    "mean_completion_tokens": 7576.2,
+    "correct": 0.8,
+    "wall_s": 668.7
+  }
+}
